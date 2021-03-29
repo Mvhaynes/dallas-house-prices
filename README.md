@@ -1,5 +1,6 @@
 # dallas-house-prices
-Explores scraped data for dallas housing prices.
+Scrapes data from a certain popular real estate website and some exploratory analysis.
+
 (scrape at your own risk)
 
 ## Tools
@@ -21,3 +22,5 @@ Exploratory data analysis that looks at:
 
 ## Future projects
 * Past data or data in a few years to see how housing prices in Dallas have changed over time 
+* Scrape nearby areas to compare inner city to suburban housing prices
+* Scrape data from another city/state and compare 
