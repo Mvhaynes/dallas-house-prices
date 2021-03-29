@@ -24,6 +24,10 @@ Exploratory data analysis that looks at:
 * Scrape nearby areas to compare inner city to suburban housing prices
 * Scrape data from another city/state and compare 
 
+## Limitations 
+* The website doesn't allow webscraping so I couldn't pull enough data 
+* If you've been to Dallas you know there's a stark contrast between certain zipcodes. I'd like to add and group by neighborhood to get a better look at trends in certain areas. 
+
 ## Resources
 Dallas shapefile from [Dallas City Hall website](https://gis.dallascityhall.com/shapefileDownload.aspx)
 Zip code location data from [Position Stack API](https://positionstack.com/documentation)
