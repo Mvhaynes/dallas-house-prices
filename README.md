@@ -24,3 +24,7 @@ Exploratory data analysis that looks at:
 * Past data or data in a few years to see how housing prices in Dallas have changed over time 
 * Scrape nearby areas to compare inner city to suburban housing prices
 * Scrape data from another city/state and compare 
+
+## Resources
+Dallas shapefile from [Dallas City Hall website](https://gis.dallascityhall.com/shapefileDownload.aspx)
+Zip code location data from [Position Stack API](https://positionstack.com/documentation)
