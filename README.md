@@ -4,14 +4,13 @@ Scrapes data from a certain popular real estate website and some exploratory ana
 (scrape at your own risk)
 
 ## Tools
-BeautifulSoup, Pandas, Matplotlib
+BeautifulSoup, Pandas, Matplotlib, Position Stack API, Geopandas, Seaborn.
 
 ## dallas-homes
 Script that loops through each page and saves the html content as a dictionary. To avoid crashing their server or causing any issues I kept this under 20 pages. 
 
 Each listing was scraped for the following data:
-* Address
-* City, state, zipcode
+* Address, city, state, zipcode
 * Beds
 * Baths
 * Price 
