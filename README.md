@@ -17,7 +17,15 @@ Each listing was scraped for the following data:
 
 ## dallas-housing-market
 Exploratory data analysis that looks at: 
-* The distribution of housing prices in the Dallas area 
+* The distribution of housing prices in the Dallas area - with and without outliers.
+* The number of houses available for each budget range.
+* The largest house you can buy for each budget range.
+* Zipcode and size by budget range. 
+* Price per square foot by budget range. 
+* Cost compared to size, separated by the number of bedrooms.
+* Cost compared to size, separated by zipcode (this plot needs more data to get accurate information).
+
+The data was run through different algorithms to determine the best model for predictions. Using the decision tree model, my plan is to create a tool that can predict price based on user input (size, number of bedrooms, location, etc.).
 
 ## Future projects
 * Past data or data in a few years to see how housing prices in Dallas have changed over time 
