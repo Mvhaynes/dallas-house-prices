@@ -1,7 +1,5 @@
 # dallas-house-prices
-Scrapes data from a certain popular real estate website and some exploratory analysis.
-
-(scrape at your own risk)
+Scrapes housing market data from Zillow and some exploratory analysis.
 
 ## Tools
 BeautifulSoup, Pandas, Matplotlib, Position Stack API, Geopandas, Seaborn.
