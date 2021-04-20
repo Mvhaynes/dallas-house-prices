@@ -29,6 +29,7 @@ The data was run through different algorithms to determine the best model for pr
 * Past data or data in a few years to see how housing prices in Dallas have changed over time 
 * Scrape nearby areas to compare inner city to suburban housing prices
 * Scrape data from another city/state and compare 
+* Add website that allows you to filter data based on input criteria
 
 ## Limitations 
 * The website doesn't allow webscraping so I couldn't pull enough data 
