@@ -5,13 +5,14 @@ Scrapes housing market data from Zillow and some exploratory analysis.
 BeautifulSoup, Pandas, Matplotlib, Position Stack API, Geopandas, Seaborn.
 
 ## dallas-homes
-Script that loops through each page and saves the html content as a dictionary. To avoid crashing their server or causing any issues I kept this under 20 pages. 
+Python script that loops through each page and saves the html content as a dictionary to be accessed by page number. To avoid crashing their server or causing any issues I kept this under 20 pages, yielding over 600 results.
 
 Each listing was scraped for the following data:
 * Address, city, state, zipcode
 * Beds
 * Baths
 * Price 
+* Type
 
 ## dallas-housing-market
 Exploratory data analysis that looks at: 
@@ -23,7 +24,12 @@ Exploratory data analysis that looks at:
 * Cost compared to size, separated by the number of bedrooms.
 * Cost compared to size, separated by zipcode (this plot needs more data to get accurate information).
 
-The data was run through different algorithms to determine the best model for predictions. Using the decision tree model, my plan is to create a tool that can predict price based on user input (size, number of bedrooms, location, etc.).
+The data was run through different algorithms to determine the best model for predictions. Using the decision tree model, my plan is to create a tool that can predict price based on user input (size, number of bedrooms, location, etc.)
+
+![image](images/price_dist.png)
+![image](images/largest_budget.png)
+![image](images/price_and_size.png)
+![image](images/number_by_spending.png)
 
 ## Future projects
 * Past data or data in a few years to see how housing prices in Dallas have changed over time 
