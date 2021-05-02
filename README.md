@@ -26,7 +26,7 @@ Exploratory data analysis that looks at:
 
 The data was run through different algorithms to determine the best model for predictions. Using the decision tree model, my plan is to create a tool that can predict price based on user input (size, number of bedrooms, location, etc.)
 
-![image](images/price_dist.png)
+![image](images/price_dist.png =100x20)
 ![image](images/largest_budget.png)
 ![image](images/price_and_size.png)
 ![image](images/number_by_spending.png)
